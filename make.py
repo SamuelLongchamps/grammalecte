@@ -214,7 +214,7 @@ def createServerZip (sLang, dVars, spLangPack):
 
     copyGrammalectePackageInZipFile(hZip, spLangPack, dVars['binary_dic'])
     for spf in ["cli.py", "server.py", "bottle.py", "server_options._global.ini", "server_options."+sLang+".ini", \
-                "README.txt", "LICENSE.txt", "LICENSE.fr.txt"]:
+                "README.md", "LICENSE.txt", "LICENSE.fr.txt"]:
         hZip.write(spf)
 
 
