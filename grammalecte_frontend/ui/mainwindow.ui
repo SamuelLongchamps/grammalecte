@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>764</width>
-    <height>428</height>
+    <width>496</width>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,8 +35,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>368</width>
-             <height>322</height>
+             <width>234</width>
+             <height>275</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0">
@@ -65,8 +65,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>368</width>
-             <height>322</height>
+             <width>234</width>
+             <height>275</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout">
@@ -102,6 +102,9 @@
       <property name="text">
        <string/>
       </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
      </widget>
     </item>
    </layout>
@@ -128,6 +131,9 @@
   <action name="actionCorrect">
    <property name="text">
     <string>Correct</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
    </property>
   </action>
  </widget>
